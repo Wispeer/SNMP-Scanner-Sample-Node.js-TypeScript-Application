@@ -1,0 +1,22 @@
+{
+  "name": "ubiquiti",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "ip-cidr": "^4.0.2",
+    "net-snmp": "^3.20.0"
+  }
+}
